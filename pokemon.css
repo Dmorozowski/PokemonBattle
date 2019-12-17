@@ -1,0 +1,95 @@
+body {
+  font-family: sans-serif;
+  padding: 10em 0 10em 10em;
+  margin: 0;
+  background-image: url("http://fc05.deviantart.net/fs71/f/2013/098/e/7/pokemon_x_y_battle_scene_by_jenske05-d5ynr9c.png");
+  background-size: cover;
+  position: relative;
+  max-height: 100%;
+  max-width: 100%;
+  background-position: center;
+  background-repeat: no-repeat;
+  overflow: hidden;
+}
+.row {
+  display: inline-block;
+  flex-direction: row;
+  align-content: space-evenly;
+  height: 300px;
+  width: 100vw;
+}
+
+.mainEntry {
+  height: 16em;
+  width: 36em;
+  position: relative;
+  border: solid 2px black;
+  border-radius: 30px;
+  background-color: darkgreen;
+  text-align: center;
+  top: 6em;
+  left: -5em;
+}
+
+.pokemonSearchEngine {
+  position: relative;
+  top: 1em;
+  left: 0;
+  display: inline-block;
+}
+
+.entry {
+  position: relative;
+  top: 2em;
+  left: 0em;
+  display: inline-block;
+}
+.myPokemon {
+  height: 18em;
+  width: 18em;
+  position: relative;
+  top: 6em;
+  left: -4em;
+}
+
+.magikarpMove {
+  width: 7em;
+  font-size: 1.5em;
+  text-align: center;
+  color: white;
+  position: relative;
+  background-color: darkgreen;
+  top: 10em;
+  left: 9em;
+}
+
+.section {
+  position: relative;
+  top: -12em;
+  right: 6em;
+}
+#h2 {
+  color: white;
+  position: relative;
+  top: 12.5em;
+  left: 5.5em;
+  padding: 0px;
+}
+#img-one {
+  height: 12em;
+  width: 12em;
+  position: relative;
+  top: 24em;
+  left: 10em;
+}
+.moves {
+  color: white;
+  position: relative;
+  top: 32em;
+  right: 9em;
+  background-color: darkgreen;
+}
+.individualMoves {
+  color: white;
+  font-size: 1em;
+}
